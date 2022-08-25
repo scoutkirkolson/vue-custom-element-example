@@ -32,5 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build dist
         run: |
+          cd package
           yarn
           yarn build
